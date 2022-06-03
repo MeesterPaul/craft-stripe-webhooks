@@ -4,9 +4,9 @@
  *
  * Handle Stripe webhooks in a CraftCMS application
  *
- * @link      https://rias.be
+ * @link      https://www.refinedpractice.com/
  *
- * @copyright Copyright (c) 2018 Rias
+ * @copyright Copyright (c) 2018 Rias v1.0.x, 2022 Paul Ratcliffe v1.2 onwards
  */
 
 /**
