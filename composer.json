@@ -2,7 +2,7 @@
     "name": "meesterpaul/craft-stripe-webhooks",
     "description": "Handle Stripe webhooks in a CraftCMS application",
     "type": "craft-plugin",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "keywords": [
         "craft",
         "cms",
