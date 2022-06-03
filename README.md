@@ -1,11 +1,10 @@
 ![icon](./src/icon.svg)
 
-[![Latest Version](https://img.shields.io/github/release/riasvdv/craft-stripe-webhooks.svg?style=flat-square)](https://github.com/riasvdv/craft-stripe-webhooks/releases)
-[![Quality Score](https://img.shields.io/scrutinizer/g/riasvdv/craft-stripe-webhooks.svg?style=flat-square)](https://scrutinizer-ci.com/g/riasvdv/craft-stripe-webhooks)
-[![StyleCI](https://styleci.io/repos/140159579/shield)](https://styleci.io/repos/140159579)
-[![Total Downloads](https://img.shields.io/packagist/dt/rias/craft-stripe-webhooks.svg?style=flat-square)](https://packagist.org/packages/rias/craft-stripe-webhooks)
+[![Latest Version](https://img.shields.io/github/release/riasvdv/craft-stripe-webhooks.svg?style=flat-square)](https://github.com/MeesterPaul/craft-stripe-webhooks/releases)
 
 # Handle Stripe webhooks in a CraftCMS application
+
+This is an update on the original version by [Rias](https://rias.be/) to be compatible with Composer 2, and in the future also Craft 4. Original repo at https://github.com/michtio/craft-stripe-webhooks/
 
 [Stripe](https://stripe.com) can notify your application of events using webhooks. This plugin can help you handle those webhooks. Out of the box it will verify the Stripe signature of all incoming requests. All valid calls will be logged to the database. You can easily define jobs or events that should be dispatched when specific events hit your app.
 
@@ -15,9 +14,9 @@ Before using this plugin we highly recommend reading [the entire documentation o
 
 ## Support Open Source. Buy beer.
 
-This plugin is licensed under a MIT license, which means that it's completely free open source software, and you can use it for whatever and however you wish. If you're using it and want to support the development, buy me a beer over at Beerpay!
+This plugin is licensed under a MIT license, which means that it's completely free open source software, and you can use it for whatever and however you wish. If you're using it and want to support the development, then go buy me a coffee at [Ko-fi](https://ko-fi.com/K3K0BEZV1) (and try a puzzle or two while you are there)!
 
-[![Beerpay](https://beerpay.io/riasvdv/craft-stripe-webhooks/badge.svg?style=beer-square)](https://beerpay.io/riasvdv/craft-stripe-webhooks)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K0BEZV1)
 
 ## Requirements
 
@@ -133,5 +132,6 @@ public function init()
 ```
 
 ## Credits
+- [Rias](https://rias.be/)
 - [Spatie's Laravel Stripe Webhooks Package](https://github.com/spatie/laravel-stripe-webhooks)
 - [All Contributors](../../contributors)
