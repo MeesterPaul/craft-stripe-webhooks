@@ -1,10 +1,10 @@
 ![icon](./src/icon.svg)
 
-[![Latest Version](https://img.shields.io/github/release/riasvdv/craft-stripe-webhooks.svg?style=flat-square)](https://github.com/MeesterPaul/craft-stripe-webhooks/releases)
+[![Latest Version](https://img.shields.io/github/release/MeesterPaul/craft-stripe-webhooks.svg?style=flat-square)](https://github.com/MeesterPaul/craft-stripe-webhooks/releases)
 
 # Handle Stripe webhooks in a CraftCMS application
 
-This is an update on the original version by [Rias](https://rias.be/) to be compatible with Composer 2, and in the future also Craft 4. Original repo at https://github.com/michtio/craft-stripe-webhooks/
+This is an update on the original version by [Rias](https://rias.be/) to be compatible with Composer 2, and in the future also Craft 4. Based on a fork by [Chase Giunta](https://github.com/chasegiunta) of the original repo at https://github.com/michtio/craft-stripe-webhooks/
 
 [Stripe](https://stripe.com) can notify your application of events using webhooks. This plugin can help you handle those webhooks. Out of the box it will verify the Stripe signature of all incoming requests. All valid calls will be logged to the database. You can easily define jobs or events that should be dispatched when specific events hit your app.
 
@@ -132,6 +132,7 @@ public function init()
 ```
 
 ## Credits
+- [Chase Giunta](https://github.com/chasegiunta)
 - [Rias](https://rias.be/)
 - [Spatie's Laravel Stripe Webhooks Package](https://github.com/spatie/laravel-stripe-webhooks)
 - [All Contributors](../../contributors)
