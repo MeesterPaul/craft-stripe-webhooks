@@ -1,8 +1,8 @@
 {
-    "name": "chasegiunta/craft-stripe-webhooks",
+    "name": "meesterpaul/craft-stripe-webhooks",
     "description": "Handle Stripe webhooks in a CraftCMS application",
     "type": "craft-plugin",
-    "version": "1.0.3",
+    "version": "1.2.0",
     "keywords": [
         "craft",
         "cms",
