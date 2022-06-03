@@ -2,7 +2,7 @@
     "name": "meesterpaul/craft-stripe-webhooks",
     "description": "Handle Stripe webhooks in a CraftCMS application",
     "type": "craft-plugin",
-    "version": "1.2.1",
+    "version": "1.2.3",
     "keywords": [
         "craft",
         "cms",
@@ -11,14 +11,14 @@
         "stripe webhooks"
     ],
     "support": {
-        "docs": "https://github.com/riasvdv/craft-stripe-webhooks/blob/master/README.md",
-        "issues": "https://github.com/riasvdv/craft-stripe-webhooks/issues"
+        "docs": "https://github.com/MeesterPaul/craft-stripe-webhooks/blob/master/README.md",
+        "issues": "https://github.com/MeesterPaul/craft-stripe-webhooks/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Rias",
-            "homepage": "https://rias.be"
+            "name": "Paul Ratcliffe",
+            "homepage": "https://www.refinedpractice.com/"
         }
     ],
     "require": {
@@ -35,7 +35,7 @@
         "handle": "stripe-webhooks",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/riasvdv/craft-stripe-webhooks/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/MeesterPaul/craft-stripe-webhooks/master/CHANGELOG.md",
         "class": "rias\\stripewebhooks\\StripeWebhooks"
     }
 }
