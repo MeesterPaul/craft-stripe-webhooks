@@ -12,7 +12,7 @@ This plugin will not handle what should be done after the webhook request has be
 
 Before using this plugin we highly recommend reading [the entire documentation on webhooks over at Stripe](https://stripe.com/docs/webhooks).
 
-## Support Open Source. Buy beer.
+## Support Open Source. Buy coffee.
 
 This plugin is licensed under a MIT license, which means that it's completely free open source software, and you can use it for whatever and however you wish. If you're using it and want to support the development, then go buy me a coffee at [Ko-fi](https://ko-fi.com/K3K0BEZV1) (and try a puzzle or two while you are there)!
 
