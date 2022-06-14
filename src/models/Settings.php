@@ -9,10 +9,10 @@
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace MeesterPaul\StripeWebhooks\Models;
+namespace MeesterPaul\StripeWebhooks\models;
 
 use craft\base\Model;
-use MeesterPaul\StripeWebhooks\Records\StripeWebhookCall;
+use MeesterPaul\StripeWebhooks\records\StripeWebhookCall;
 
 /**
  * @author    Rias

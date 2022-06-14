@@ -9,11 +9,11 @@
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace MeesterPaul\StripeWebhooks\Controllers;
+namespace MeesterPaul\StripeWebhooks\controllers;
 
 use Craft;
 use craft\web\Controller;
-use MeesterPaul\StripeWebhooks\Exceptions\WebhookFailed;
+use MeesterPaul\StripeWebhooks\exceptions\WebhookFailed;
 use MeesterPaul\StripeWebhooks\StripeWebhooks;
 use Stripe\Webhook;
 

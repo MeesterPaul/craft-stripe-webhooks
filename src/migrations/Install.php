@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace MeesterPaul\StripeWebhooks\Migrations;
+namespace MeesterPaul\StripeWebhooks\migrations;
 
 use Craft;
 use craft\config\DbConfig;

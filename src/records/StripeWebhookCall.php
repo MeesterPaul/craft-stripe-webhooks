@@ -9,12 +9,12 @@
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace MeesterPaul\StripeWebhooks\Records;
+namespace MeesterPaul\StripeWebhooks\records;
 
 use Craft;
 use craft\db\ActiveRecord;
-use MeesterPaul\StripeWebhooks\Events\WebhookEvent;
-use MeesterPaul\StripeWebhooks\Exceptions\WebhookFailed;
+use MeesterPaul\StripeWebhooks\events\WebhookEvent;
+use MeesterPaul\StripeWebhooks\exceptions\WebhookFailed;
 use MeesterPaul\StripeWebhooks\StripeWebhooks;
 
 /**

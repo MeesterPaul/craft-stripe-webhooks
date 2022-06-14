@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace MeesterPaul\StripeWebhooks\AssetBundles\StripeWebhooks;
+namespace MeesterPaul\StripeWebhooks\assetbundles\StripeWebhooks;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -29,7 +29,7 @@ class StripeWebhooksAsset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = '@MeesterPaul/StripeWebhooks/AssetBundles/StripeWebhooks/dist';
+        $this->sourcePath = '@MeesterPaul/StripeWebhooks/assetbundles/StripeWebhooks/dist';
 
         $this->depends = [
             CpAsset::class,

@@ -11,10 +11,11 @@
 
 namespace MeesterPaul\StripeWebhooks;
 
+use Craft;
 use craft\base\Plugin;
 use craft\events\RegisterUrlRulesEvent;
 use craft\web\UrlManager;
-use MeesterPaul\StripeWebhooks\Models\Settings;
+use MeesterPaul\StripeWebhooks\models\Settings;
 use yii\base\Event;
 
 /**
@@ -53,11 +54,16 @@ class StripeWebhooks extends Plugin
         parent::init();
         self::$plugin = $this;
 
+        Craft::info(
+            "stripe-webhooks plugin loaded, endpoint is " . $this->settings->endpoint,
+            __METHOD__
+        );
+
         Event::on(
             UrlManager::class,
             UrlManager::EVENT_REGISTER_SITE_URL_RULES,
             function (RegisterUrlRulesEvent $event) {
-                $event->rules[$this->settings->endpoint] = 'stripe-webhooks/default';
+                $event->rules[$this->settings->endpoint] = 'stripe-webhooks-mp/default';
             }
         );
     }
