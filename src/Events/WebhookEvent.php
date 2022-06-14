@@ -1,8 +1,8 @@
 <?php
 
-namespace rias\stripewebhooks\events;
+namespace MeesterPaul\StripeWebhooks\Events;
 
-use rias\stripewebhooks\records\StripeWebhookCall;
+use MeesterPaul\StripeWebhooks\Records\StripeWebhookCall;
 use yii\base\Event;
 
 class WebhookEvent extends Event

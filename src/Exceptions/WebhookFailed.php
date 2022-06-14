@@ -1,9 +1,9 @@
 <?php
 
-namespace rias\stripewebhooks\exceptions;
+namespace MeesterPaul\StripeWebhooks\Exceptions;
 
 use Exception;
-use rias\stripewebhooks\records\StripeWebhookCall;
+use MeesterPaul\StripeWebhooks\Records\StripeWebhookCall;
 
 class WebhookFailed extends Exception
 {

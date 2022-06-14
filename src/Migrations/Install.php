@@ -4,12 +4,12 @@
  *
  * Handle Stripe webhooks in a CraftCMS application
  *
- * @link      https://rias.be
+ * @link      https://github.com/MeesterPaul/craft-stripe-webhooks
  *
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace rias\stripewebhooks\migrations;
+namespace MeesterPaul\StripeWebhooks\Migrations;
 
 use Craft;
 use craft\config\DbConfig;

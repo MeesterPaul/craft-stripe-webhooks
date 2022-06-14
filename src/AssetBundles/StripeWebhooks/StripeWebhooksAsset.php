@@ -4,12 +4,12 @@
  *
  * Handle Stripe webhooks in a CraftCMS application
  *
- * @link      https://rias.be
+ * @link      https://github.com/MeesterPaul/craft-stripe-webhooks
  *
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace rias\stripewebhooks\assetbundles\StripeWebhooks;
+namespace MeesterPaul\StripeWebhooks\AssetBundles\StripeWebhooks;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -29,7 +29,7 @@ class StripeWebhooksAsset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = '@rias/stripewebhooks/assetbundles/stripewebhooks/dist';
+        $this->sourcePath = '@MeesterPaul/StripeWebhooks/AssetBundles/StripeWebhooks/dist';
 
         $this->depends = [
             CpAsset::class,

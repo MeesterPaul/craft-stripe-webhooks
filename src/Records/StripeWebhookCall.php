@@ -4,18 +4,18 @@
  *
  * Handle Stripe webhooks in a CraftCMS application
  *
- * @link      https://rias.be
+ * @link      https://github.com/MeesterPaul/craft-stripe-webhooks
  *
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace rias\stripewebhooks\records;
+namespace MeesterPaul\StripeWebhooks\Records;
 
 use Craft;
 use craft\db\ActiveRecord;
-use rias\stripewebhooks\events\WebhookEvent;
-use rias\stripewebhooks\exceptions\WebhookFailed;
-use rias\stripewebhooks\StripeWebhooks;
+use MeesterPaul\StripeWebhooks\Events\WebhookEvent;
+use MeesterPaul\StripeWebhooks\Exceptions\WebhookFailed;
+use MeesterPaul\StripeWebhooks\StripeWebhooks;
 
 /**
  * @author    Rias

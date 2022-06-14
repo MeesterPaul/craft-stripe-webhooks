@@ -5,7 +5,7 @@
  *
  * @author    Rias
  * @copyright Copyright (c) 2018 Rias
- * @link      https://rias.be
+ * @link      https://github.com/MeesterPaul/craft-stripe-webhooks
  * @package   StripeWebhooks
  * @since     1.0.0
  */

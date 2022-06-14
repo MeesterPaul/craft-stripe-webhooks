@@ -4,17 +4,17 @@
  *
  * Handle Stripe webhooks in a CraftCMS application
  *
- * @link      https://rias.be
+ * @link      https://github.com/MeesterPaul/craft-stripe-webhooks
  *
  * @copyright Copyright (c) 2018 Rias
  */
 
-namespace rias\stripewebhooks;
+namespace MeesterPaul\StripeWebhooks;
 
 use craft\base\Plugin;
 use craft\events\RegisterUrlRulesEvent;
 use craft\web\UrlManager;
-use rias\stripewebhooks\models\Settings;
+use MeesterPaul\StripeWebhooks\Models\Settings;
 use yii\base\Event;
 
 /**

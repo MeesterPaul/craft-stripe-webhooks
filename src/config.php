@@ -45,9 +45,9 @@ return [
 
     /*
      * The classname of the model to be used. The class should equal or extend
-     * rias\stripewebhooks\records\StripeWebhookCall.
+     * MeesterPaul\StripeWebhooks\Records\StripeWebhookCall.
      */
-    'model' => \rias\stripewebhooks\records\StripeWebhookCall::class,
+    'model' => \MeesterPaul\StripeWebhooks\Records\StripeWebhookCall::class,
 
     /*
      * The url of the Stripe endpoint you want to use in your application
