@@ -15,7 +15,7 @@
  * This file exists only as a template for the Stripe Webhooks settings.
  * It does nothing on its own.
  *
- * Don't edit this file, instead copy it to 'craft/config' as 'stripe-webhooks.php'
+ * Don't edit this file, instead copy it to 'craft/config' as 'stripe-webhooks-mp.php'
  * and make your changes there to override default settings.
  *
  * Once copied to 'craft/config', this file will be multi-environment aware as
@@ -45,13 +45,13 @@ return [
 
     /*
      * The classname of the model to be used. The class should equal or extend
-     * MeesterPaul\StripeWebhooks\Records\StripeWebhookCall.
+     * MeesterPaul\StripeWebhooks\records\StripeWebhookCall.
      */
-    'model' => \MeesterPaul\StripeWebhooks\Records\StripeWebhookCall::class,
+    'model' => \MeesterPaul\StripeWebhooks\records\StripeWebhookCall::class,
 
     /*
      * The url of the Stripe endpoint you want to use in your application
      */
-    'endpoint' => 'stripe-webhooks',
+    'endpoint' => 'stripe-webhooks-mp',
 
 ];
